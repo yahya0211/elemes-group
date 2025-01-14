@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import { CgMenu } from "react-icons/cg";
 
@@ -6,28 +7,18 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="navbar__image">
-          <img src="/image55.png" alt="logo-image" />
+          <Image src="/image55.png" alt="logo-image" />
         </div>
         <div>
           <div className="navbar__content">
             <div className="navbar__content--badge">HOT</div>
           </div>
           <div className="navbar__menu">
-            <div className="menu__item">
-              Home
-            </div>
-            <div  className="menu__item">
-              About
-            </div>
-            <div  className="menu__item ">
-              Promotion
-            </div>
-            <div  className="menu__item ">
-              Blogs
-            </div>
-            <div  className="menu__item ">
-              Contact Us
-            </div>
+            <div className="menu__item">Home</div>
+            <div className="menu__item">About</div>
+            <div className="menu__item ">Promotion</div>
+            <div className="menu__item ">Blogs</div>
+            <div className="menu__item ">Contact Us</div>
           </div>
         </div>
         <div className="navbar__auth">

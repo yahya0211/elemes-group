@@ -1,6 +1,7 @@
 "use client";
 import React, { useRef } from "react";
 import { ITEM_MOCKUP } from "./data/carouselItems";
+import Image from "next/image";
 
 
 const Category = () => {
@@ -34,7 +35,7 @@ const Category = () => {
               <div className="" key={index}>
                 <div className={`category__items--border ${item.bg}`}>
                   <div>
-                    <img src={item.img} alt={item.name} className="category__items--images" />
+                    <Image src={item.img} alt={item.name} className="category__items--images" />
                   </div>
                   <div>{item.name}</div>
                   <div>{item.count}</div>
