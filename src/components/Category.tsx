@@ -45,11 +45,11 @@ const Category = () => {
           </div>
           <div className="category__items--button category__button--hidden">
             <div className="navbar__auth--register" onClick={handlePrev}>
-              <img src="Group391(2).png" alt="left-button" className="category__items--carousel" /> PREV
+              <Image src="Group391(2).png" alt="left-button" className="category__items--carousel" /> PREV
             </div>
             <div className="navbar__auth--register" onClick={handleNext}>
               NEXT
-              <img src="Group391(1).png" alt="left-button" className="category__items--carousel" />
+              <Image src="Group391(1).png" alt="left-button" className="category__items--carousel" />
             </div>
           </div>
         </div>
