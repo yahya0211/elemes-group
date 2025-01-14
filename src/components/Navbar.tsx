@@ -13,21 +13,21 @@ const Navbar = () => {
             <div className="navbar__content--badge">HOT</div>
           </div>
           <div className="navbar__menu">
-            <a href="/#" className="menu__item">
+            <div className="menu__item">
               Home
-            </a>
-            <a href="/#" className="menu__item">
+            </div>
+            <div  className="menu__item">
               About
-            </a>
-            <a href="/#" className="menu__item ">
+            </div>
+            <div  className="menu__item ">
               Promotion
-            </a>
-            <a href="/#" className="menu__item ">
+            </div>
+            <div  className="menu__item ">
               Blogs
-            </a>
-            <a href="/#" className="menu__item ">
+            </div>
+            <div  className="menu__item ">
               Contact Us
-            </a>
+            </div>
           </div>
         </div>
         <div className="navbar__auth">
