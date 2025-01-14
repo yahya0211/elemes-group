@@ -2,6 +2,8 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import WelcomeSection from "@/components/WelcomeSection";
 import Category from "@/components/Category";
+import Trending from "@/components/Trending";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +15,12 @@ export default function Home() {
       <section>
         <Category />
       </section>
+      <section>
+        <Trending />
+      </section>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

@@ -12,6 +12,12 @@ export default {
       overflowScrolling: {
         touch: "touch",
       },
+      fontFamily: {
+        allura: ["Allura", "cursive"],
+        oleo: ["Oleo Script Swash Caps", "cursive"],
+        jakarta: ["Plus Jakarta Sans", "sans-serif"],
+        rubik: ["Rubik", "sans-serif"],
+      },
     },
   },
   plugins: [
