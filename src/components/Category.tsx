@@ -17,12 +17,6 @@ const Category = () => {
       carouselRef.current.scrollLeft += carouselRef.current.offsetWidth;
     }
   };
-  const handleScroll = (event: React.WheelEvent) => {
-    if (carouselRef.current) {
-      event.preventDefault();
-      carouselRef.current.scrollLeft += event.deltaY;
-    }
-  };
 
   let isDown = false;
   let startX: number;
