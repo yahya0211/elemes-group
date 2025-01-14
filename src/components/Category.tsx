@@ -35,7 +35,7 @@ const Category = () => {
               <div className="" key={index}>
                 <div className={`category__items--border ${item.bg}`}>
                   <div>
-                    <Image src={item.img} alt={item.name} className="category__items--images" />
+                    <Image src={item.img} alt={item.name} height={50} width={50} className="category__items--images" />
                   </div>
                   <div>{item.name}</div>
                   <div>{item.count}</div>
@@ -45,11 +45,11 @@ const Category = () => {
           </div>
           <div className="category__items--button category__button--hidden">
             <div className="navbar__auth--register" onClick={handlePrev}>
-              <Image src="Group391(2).png" alt="left-button" className="category__items--carousel" /> PREV
+              <Image src="/Group391(2).png" height={50} width={50} alt="left-button" className="category__items--carousel" /> PREV
             </div>
             <div className="navbar__auth--register" onClick={handleNext}>
               NEXT
-              <Image src="Group391(1).png" alt="left-button" className="category__items--carousel" />
+              <Image src="/Group391(1).png" height={50} width={50} alt="left-button" className="category__items--carousel" />
             </div>
           </div>
         </div>

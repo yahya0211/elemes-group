@@ -16,7 +16,7 @@ const Trending = () => {
         <div className="trending__items">
           {items.map((item, index) => (
             <div className={`category__items--border trending__items--border ${item.bg}`} key={index}>
-              <Image src={item.image} alt="item-image" className="category__items--images" />
+              <Image src={item.image} width={50} height={50} alt="item-image" className="category__items--images" />
               <h1 className="trending__items--item--title welcome-section__items--bold ">{item.name}</h1>
               <h1 className="trending__items--item--name welcome-section__items--text-green ">{item.title}</h1>
               <div className="welcome-section__items-rating">

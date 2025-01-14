@@ -7,10 +7,10 @@ const Footer = () => {
       <div className="footer category__items--bgclr4">
         <div className="footer__items1">
           <div className="navbar__image">
-            <Image src="/image55.png" alt="logo-image" />
+            <Image src="/image55.png" height={100} width={200} alt="logo-image" />
           </div>{" "}
           <div>Jl. Prof. DR. Satrio No.7, RT.3/RW.3, Karet Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12950</div>
-          <Image src="/Frame442.png" alt="contact-image" className="footer__items--image" />
+          <Image src="/Frame442.png" height={50} width={50} alt="contact-image" className="footer__items--image" />
         </div>
         <div className="footer__items2">
           <div className="welcome-section__items--bold">Categories</div>
@@ -39,11 +39,11 @@ const Footer = () => {
               <button className="footer__items--button">SEND</button>
             </div>{" "}
             <div className="footer__items3">
-              <Image src="/Vector.png" alt="" />
+              <Image src="/Vector.png" width={30} height={30} alt="" />
               elemesid@gmail.com
             </div>
             <div className="footer__items3">
-              <Image src="/Vector(1).png" alt="" />
+              <Image src="/Vector(1).png" width={30} height={30} alt="" />
               0888 1111 2222{" "}
             </div>
           </div>

@@ -19,9 +19,9 @@ const WelcomeSection = () => {
           </div>
         </div>
         <div className="welcome-section__items welcome-section__items--image">
-          <Image src="/image(1).png" alt="welcome-image" className="welcome-section__items--image1" />
+          <Image src="/Image(1).png" height={100} width={400} alt="welcome-image" className="welcome-section__items--image1" />
           <div className="welcome-section__items--border">
-            <Image src="/image(1).png" alt="info-image" className="welcome-section__items--text-green" />
+            <Image src="/Image(1).png" width={50} height={50} alt="info-image" className="welcome-section__items--text-green" />
             <div className="welcome-section__items--subborder">
               <div className="welcome-section__items--bold">Green Salad Tomato</div>
               <div className="welcome-section__items-rating1">Tomato</div>
